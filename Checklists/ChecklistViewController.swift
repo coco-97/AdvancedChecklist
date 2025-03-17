@@ -33,8 +33,9 @@
 import UIKit
 
 class ChecklistViewController: UITableViewController, ItemDetailViewControllerDelegate {
-    var items = [ChecklistItem]()
     
+    var items = [ChecklistItem]()
+    var checklist: Checklist!
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -66,6 +67,7 @@ class ChecklistViewController: UITableViewController, ItemDetailViewControllerDe
         
         //load data
         loadChecklistItems()
+        title = checklist.name
     }
     
     // MARK: - Navigation
