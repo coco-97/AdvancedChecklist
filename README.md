@@ -1,2 +1,5 @@
 # AdvancedChecklist
-Key Features: ✅ Two-Level Checklist – Organize tasks with primary items and detailed subtasks. 🔔 Scheduled Notifications – Get reminders for due tasks and subtasks.
+Key Features:
+✅ Two-Level Checklist – Organize tasks with primary items and detailed subtasks. 
+🔔 Scheduled Notifications – Get reminders for due tasks and subtasks.
+📊 Progress Tracking – Monitor completion status and pending items.
