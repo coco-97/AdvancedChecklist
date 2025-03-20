@@ -67,7 +67,7 @@ class ChecklistViewController: UITableViewController, ItemDetailViewControllerDe
         
         //load data
         loadChecklistItems()
-        title = checklist.name
+        title = checklist?.name
     }
     
     // MARK: - Navigation
