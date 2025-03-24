@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Checklist: NSObject {
+class Checklist: NSObject, Codable {
     
     init(name: String){
         self.name = name
@@ -15,4 +15,5 @@ class Checklist: NSObject {
     }
     
     var name = ""
+    var items = [ChecklistItem]()
 }

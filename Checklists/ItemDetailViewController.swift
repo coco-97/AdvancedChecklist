@@ -49,7 +49,7 @@ class ItemDetailViewController: UITableViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.largeTitleDisplayMode = .never
+//        navigationItem.largeTitleDisplayMode = .never
         if let item = itemToEdit {
             title = "Edit Item"
             textField.text = item.text

@@ -55,7 +55,7 @@
                             <outlet property="delegate" destination="fD0-91-e7V" id="Pm0-ps-EBG"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Name of the Checklist" id="qIy-Bl-RtD">
+                    <navigationItem key="navigationItem" title="Name of the Checklist" largeTitleDisplayMode="never" id="qIy-Bl-RtD">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="fo8-tO-0CU">
                             <connections>
                                 <segue destination="ExI-ph-ltZ" kind="show" identifier="AddItem" id="s9l-Bm-SeK"/>
@@ -205,7 +205,7 @@
                             <outlet property="delegate" destination="BRO-s5-jqE" id="n1Z-aD-kwB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CheckLists" id="ig2-q7-asV">
+                    <navigationItem key="navigationItem" title="CheckLists" largeTitleDisplayMode="always" id="ig2-q7-asV">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="VJF-k1-ozS">
                             <connections>
                                 <segue destination="8za-Dd-8Wd" kind="show" identifier="AddChecklist" id="QPJ-5h-ZvJ"/>
