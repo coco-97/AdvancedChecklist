@@ -23,6 +23,12 @@ class DataModel{
       UserDefaults.standard.register(defaults: dictionary)
     }
     
+    func sortChecklists(){
+        lists.sort{ list1, list2 in
+            return list1.name.localizedStandardCompare(list2.name) == .orderedAscending
+        }
+    }
+    
     func handleFirstTime() {
       let userDefaults = UserDefaults.standard
       let firstTime = userDefaults.bool(forKey: "FirstTime")
@@ -84,6 +90,7 @@ class DataModel{
                 lists = try decoder.decode(
                     [Checklist].self,
                     from: data)
+                sortChecklists()
             } catch {
                 print(
                     "Error decoding list array: \(error.localizedDescription)"
